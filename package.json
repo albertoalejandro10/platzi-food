@@ -1,10 +1,11 @@
 {
-  "name": "Platzi_food",
+  "name": "platzifood",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/style.css"
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "dev": "postcss css/tailwind.css -o public/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
